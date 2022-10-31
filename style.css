@@ -18,15 +18,13 @@
 
 body {
     height: 100vh;
-    overflow: hidden;
     display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 14px;
     background-color: var(--Cream);
 }
 
 main {
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,7 +129,7 @@ a {
 .attribution {
     text-align: center;
     font-weight: 400;
-    padding: 3rem 0;
+    padding: 1rem 0;
 }
 
 .cate,
